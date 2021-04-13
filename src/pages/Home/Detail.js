@@ -52,7 +52,7 @@ class DetailScreen extends Component {
 
     const {postText} = this.state;
 
-    console.log(parentItemId, parentRoute);
+    console.log('父页面参数：', parentItemId, parentRoute);
 
     return (
       <View style={styles.background}>

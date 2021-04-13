@@ -9,9 +9,10 @@ class HomeScreen extends React.Component {
   }
 
   componentDidMount() {
-    const {navigation} = this.props;
+    const {navigation, route} = this.props;
     this._focous_unsubscribe = navigation.addListener('focus', () => {
       console.log('HomeScreen mounted---focus');
+      console.log('HomeScreen mounted---子页面回传参数：', route.params?.post);
     });
     this._blur_unsubscribe = navigation.addListener('blur', () => {
       console.log('HomeScreen unMounted---blur');
@@ -32,7 +33,7 @@ class HomeScreen extends React.Component {
   }
 
   render() {
-    console.log(this.props.route?.params?.post);
+    console.log('子页面回传参数：', this.props.route?.params?.post);
 
     return (
       <View style={styles.root}>

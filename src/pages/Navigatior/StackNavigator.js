@@ -16,6 +16,8 @@ import DoctorScreen from '../Doctor';
 import SettingsScreen from '../Settings';
 import ProfileScreen from '../Settings/Profile';
 
+import {Colors} from '../../utils';
+
 const Stack = createStackNavigator();
 const TabStack = createBottomTabNavigator();
 
@@ -23,7 +25,13 @@ class StackNavigator extends React.Component {
   render() {
     return (
       <NavigationContainer>
-        <Stack.Navigator initialRouteName="Home">
+        <Stack.Navigator
+          initialRouteName="Home"
+          screenOptions={{
+            headerStyle: {backgroundColor: Colors.primary},
+            headerTintColor: Colors.white,
+            headerTitleStyle: {fontWeight: 'bold'},
+          }}>
           <Stack.Screen
             name="Home"
             component={this.tabStacks}
