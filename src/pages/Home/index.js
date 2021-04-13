@@ -50,17 +50,6 @@ class HomeScreen extends React.Component {
   }
 }
 
-HomeScreen.options = {
-  topBar: {
-    title: {
-      text: 'Home',
-    },
-  },
-  bottomTab: {
-    text: 'Home',
-  },
-};
-
 const styles = StyleSheet.create({
   root: {
     flex: 1,

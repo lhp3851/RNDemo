@@ -216,7 +216,6 @@
 				00E356EA1AD99517003FC87E /* Sources */,
 				00E356EB1AD99517003FC87E /* Frameworks */,
 				00E356EC1AD99517003FC87E /* Resources */,
-				01D01C8B2AEC5C59EB73DF35 /* [CP] Embed Pods Frameworks */,
 				AAD573F1832BED22469D285C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
@@ -239,7 +238,6 @@
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
-				3F259C30378A15D78FEBB33C /* [CP] Embed Pods Frameworks */,
 				6A90B8B3437FB936881F5B1D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
@@ -301,22 +299,6 @@
 			files = (
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
-				BE4A51E82625954C00BD11A3 /* AntDesign.ttf in Resources */,
-				B45280EE00824C078B6D4E9D /* Entypo.ttf in Resources */,
-				BE4A51ED2625954C00BD11A3 /* FontAwesome.ttf in Resources */,
-				BE4A51E42625954C00BD11A3 /* Feather.ttf in Resources */,
-				31D469FF54194759A9D015C9 /* FontAwesome5_Regular.ttf in Resources */,
-				E4D5B3FC903B4A72B91CA43A /* Fontisto.ttf in Resources */,
-				BE4A51EF2625954C00BD11A3 /* EvilIcons.ttf in Resources */,
-				6003A74B6C3D489688165B23 /* Foundation.ttf in Resources */,
-				5202CFE9211143F49C76A9FD /* Ionicons.ttf in Resources */,
-				BE4A51E62625954C00BD11A3 /* FontAwesome5_Brands.ttf in Resources */,
-				BE4A51EB2625954C00BD11A3 /* FontAwesome5_Solid.ttf in Resources */,
-				36403C60612B427E9D31C5CD /* MaterialIcons.ttf in Resources */,
-				9735CC98DC99484BA1A38135 /* Octicons.ttf in Resources */,
-				DD9A96A43639461A8A103196 /* SimpleLineIcons.ttf in Resources */,
-				BE4A51E72625954C00BD11A3 /* MaterialCommunityIcons.ttf in Resources */,
-				2387FACAC5F94881B506EC32 /* Zocial.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -336,40 +318,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "set -e\n\nexport NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh\n";
-		};
-		01D01C8B2AEC5C59EB73DF35 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-RNDemo-RNDemoTests/Pods-RNDemo-RNDemoTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-RNDemo-RNDemoTests/Pods-RNDemo-RNDemoTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RNDemo-RNDemoTests/Pods-RNDemo-RNDemoTests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		3F259C30378A15D78FEBB33C /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-RNDemo/Pods-RNDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-RNDemo/Pods-RNDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RNDemo/Pods-RNDemo-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
 		};
 		6A90B8B3437FB936881F5B1D /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;

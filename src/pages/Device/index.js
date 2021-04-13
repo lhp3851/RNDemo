@@ -11,17 +11,6 @@ class DevicesScreen extends React.Component {
   }
 }
 
-DevicesScreen.options = {
-  topBar: {
-    title: {
-      text: 'Devices',
-    },
-  },
-  bottomTab: {
-    text: 'Devices',
-  },
-};
-
 const styles = StyleSheet.create({
   root: {
     flex: 1,

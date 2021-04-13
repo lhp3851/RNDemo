@@ -1,5 +1,3 @@
-import Colors from './Colors';
+import {Colors} from './Colors';
 
-module.exports = {
-  Colors,
-};
+export {Colors};

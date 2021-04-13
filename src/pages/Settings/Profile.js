@@ -1,11 +1,11 @@
 import React from 'react';
 import {View, Text, StyleSheet} from 'react-native';
 
-class DoctorScreen extends React.Component {
+class ProfileScreen extends React.Component {
   render() {
     return (
       <View style={styles.root}>
-        <Text>Doctors Screen</Text>
+        <Text>Settings Profile</Text>
       </View>
     );
   }
@@ -20,4 +20,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export default DoctorScreen;
+export default ProfileScreen;

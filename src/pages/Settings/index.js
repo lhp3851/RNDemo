@@ -14,15 +14,17 @@ class SettingsScreen extends React.Component {
   componentDidMount() {
     const {navigation} = this.props;
     navigation.setOptions({
-      headerRight: () => [
-        <Icon
-          name="bell-o"
-          size={20}
-          style={styles.notice}
-          backgroundColor={Colors.white}
-          onPress={() => this.setCount(c => c + 1)}
-        />,
-      ],
+      headerRight: () => {
+        return (
+          <Icon
+            name="bell-o"
+            size={20}
+            style={styles.notice}
+            color={Colors.white}
+            onPress={() => this.setCount(c => c + 1)}
+          />
+        );
+      },
     });
   }
 
@@ -45,16 +47,16 @@ class SettingsScreen extends React.Component {
     return (
       <View style={styles.root}>
         <Text>Settings Screen</Text>
-
         <Button
           title="Detail"
           onPress={() => {
-            navigation.navigate('Home', {
-              screen: 'Details',
-              params: {
-                noticeInfo: c,
-              },
-            });
+            // navigation.navigate('Home', {
+            //   screen: 'Details',
+            //   params: {
+            //     noticeInfo: c,
+            //   },
+            // });
+            navigation.navigate('Profile');
           }}
         />
       </View>
